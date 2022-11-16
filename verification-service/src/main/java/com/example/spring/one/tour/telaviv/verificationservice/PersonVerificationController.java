@@ -3,14 +3,12 @@ package com.example.spring.one.tour.telaviv.verificationservice;
 import reactor.core.publisher.Mono;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 
 /**
  * @author Olga Maciaszek-Sharma
  */
-@RestController
+@Controller
 public class PersonVerificationController {
 
 	private final PersonVerificationService verificationService;
