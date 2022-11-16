@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: verification-service
+  rsocket:
+    server:
+      port: 7000
+logging:
+  level:
+    org.springframework: DEBUG
